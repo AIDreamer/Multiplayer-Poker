@@ -1,0 +1,106 @@
+== TEAM BASS'S PRODUCT BACKLOG ==
+Team Member: Bobby Cowen, Son Pham, Andrew Caple, Sune Swart
+
+Important user stories
+
+1. 
+As a tester, I want a playable console-based version of our Poker Model for the Game Class, so that when testing the full game before connecting to the View, we can assess which features are working correctly and which are not.
+Time Estimate: 4hrs
+
+2.
+As a programmer, I want to implement a working game inside of PokerController based off of the implementation of our console-based game, so that we can have a working GUI-Based game.
+Time Estimate: 3hrs
+
+3.
+As a designer, I want the interface for our game implemented, so that when making our console-based version of our game, we can have the design of our game already completed.
+Time Estimate: 5hrs.
+
+4.
+As a programmer, I want the CardUtility Class implemented, so that we can have methods to check whether a given hand of cards is a certain type of hand or not.
+Time Estimate: 5hrs
+
+5.
+As a programmer, I want the code of our Model Classes refactored and optimized so that I can read and alter it more easily for further implementation. 
+Time Estimate: 1.5hr
+
+6.
+As a programmer, I want to implement a display for all players, so that each players current information can be displayed to the user.
+Time Estimate: 2.5hrs
+
+Other user stories
+
+As a designer, I want our Model code to be fully documented with comments and Javadocs, so that our GUI and network designers can read the code easily in case they need to utilize any Model features when connecting.
+Time Estimate: Done concurrently with code creation
+
+As a tester, I want JUnit tests for the Game Class of our Model, so that we can assess whether the individual methods of our game function properly.
+Time Estimate: 1hrs
+
+As a tester, I want JUnit tests for the Player Class of our Model, so that we can assess whether the individual methods of our game function properly.
+Time Estimate: 1hrs
+
+As a programmer, I want the Player Class implemented, so that we can have individual Players each holding their relevant information so that we can keep track of each person in our game.
+Time Estimate: 5hrs
+
+As a tester, I want JUnit tests for the CardUtility Class of our Model, so that we can make sure that our implementation for our hand generation methods works properly in determining what hand to make.
+Time Estimate: 1.5hrs
+
+As a programmer, I want to implement a compareTo method for all Hand-based objects, so that we can not only compare each hand with others of the same type to see which hand is better, but also between hands of different types.
+Time Estimate: 3hrs
+
+As a programmer, I want to implement all Hand-based objects, so that we can have different objects to represent each type of hand a player may have.
+Time Estimate: 3hrs
+
+As a designer, I want to design the Class structure of the Model for our Poker game, so that we can have an efficient design which works to our game’s specifications.
+Time Estimate: 2hrs
+
+As a planner, I want to fully finish our game, so that we can connect it with our GUI and Network.
+Time Estimate: 1.5 Weeks
+
+As a designer, I want to refactor our PokerController Class, so that we can more easily implement the connections between it and our Network implementation.
+Time Estimate: 1.5hrs
+
+As a tester, I want to test out our connected game, so that I can find any uncaught bugs which might exist in either our Game or our View.
+Time Estimate: 2hrs
+
+As a designer, I want to update our GUI, so that it is easier to read and more pleasing for the user.
+Time Estimate: 2.5hrs
+
+As a programmer, I want to implement a GameState enumeration, so that we can kep track of what phase of the current Game we are in, and can change the state and the board as necessary.
+Time Estimate: 1hrs
+
+As a programmer, I want to implement actionPerformed within the PokerController Class, so that our GUI and Model can be updated when the user interacts with the GUI interface.
+Time Estimate: 4hrs
+
+As a programmer, I want to implement updateViewFromModel, so that our GUI can be updated to display information from our Model Classes.
+Time Estimate: 5hrs
+
+As a designer, I want to devise what aspects of the Model need to be connected to our View, so that when actually implementing our PokerController we have a design to follow.
+Time Estimate: 1hr
+
+As a designer, I want to refactor the MainView Class, so that we can more easily make adjustments to our GUI design while connecting our game to the Network.
+Time Estimate: 3hrs
+
+As a designer, I want to design the layout of our GUI interface, so that when we implement our view we have a design to base our code off of.
+Time Estimate: 1.5hrs
+
+As a programmer, I want to research the implementation of overlapping images in JFrame, so that we are able to display each player’s cards overlapping each other to save space on the screen.
+Time Estimate: 1hrs
+
+As a programmer, I want to implement our table display, so the user can get information about the cards currently on the table.
+Time Estimate: 1.5hrs
+
+As a programmer, I want to implement a DialogBox display, so information about the game and the progress of past games can be easily displayed to the user.
+Time Estimate: 1hrs
+
+As a programmer, I want to implement buttons, so that the user is able to make certain moves when it is their turn.
+Time Estimate: 1hrs
+
+As a programmer, I want to implement a JSlider, so that the user is able to select an amount that they wish to raise their current bet by.
+Time Estimate: 1.5hrs
+
+As a designer, I want to research Network systems, so that when we design our Network interface to interact with the users, we have a design to work off of.
+Time Estimate: 3hrs
+
+As a designer, I want to create and connect our project to Git, so that we are able to update our project and store our past alterations in one location.
+Time Estimate: 1hrs
+

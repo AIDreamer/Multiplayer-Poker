@@ -1,0 +1,93 @@
+November 10, 2014:
+- Meeting to determine roles of the group and starting to plan out the timeline of the project.
+
+November 11, 2014:
+- Meeting to assign specific tasks to work on over the next few weeks as we start to approach the project from different sides at once. 
+- Bobby and Son will concentrate on the Model aspects with some help from the whole group as we lay out the Model. 
+- Same is to be done for the View, which will be developed by Sune and Andrew.
+
+November 12, 2014:
+- We start our collaborative work on our assigned pieces.
+- Bobby and Son lay out the various classes that they will need to implement and start to do some coding
+- Andrew and Sune begin working on the GUI, the team as a whole helps to decide what the GUI will need in the way of functionality so that we will know what needs to be implemented. The layout for the GUI is now fully planned out
+
+November 13, 2014:
+- Each of the two groups starts to code their own part of the whole projects
+- Set up a Git repository
+
+November 15, 2014:
+- Bobby and Son finished adding all classes into the model
+- Hand implementation turned out to be tricky. We wants to make Hand implement Comparable<Hand> for the sake of sorting the best hands out. But every hand type has different way to compare
+
+November 16, 2014:
+- Solution found for the hand implementation. Various Hand objects (High Card, Pair,...) are separate objects inherit the Hand class. Hand class contains level value which represents the Rank of the hand. Each hand type has different private variables that serve different comparision method. When we compare two different hands, we compare their levels. If they have the same levels, we can call individual compareTo method in the subclasses.
+- The team came up with the idea the the main player who plays the game whould be in the right most position.
+
+November 17, 2014:
+- CardUtility generating best kind of Hand from 5 cards is complated
+- Hands are successfully sorted.
+- Team GUI decides to hard code the position of every element of the GUI since the ContentPane system was confusing and interactions with Windows Builder were unstable
+- The slider should be in a different contentPane
+
+November 19, 2014:
+
+- Team GUI finished designing the layout of 10 players.
+
+November 20, 2014:
+- The 9 players plus the Main player design seems to have trouble with positioning.
+- The team decided to drop the 9 players + Main design since the position was problematic. Switch to laying out all 10 players at the bottom and every player retains their own position
+
+November 21, 2014:
+- The team decided not to make a separate windows for raising and incorporated slider into the main GUI for simplicity purpose.
+
+
+November 22, 2014: 
+- Son Pham completed the new Deck design
+- The background that we should use is: 3B945D or in RGB: 59, 148, 93
+- Andrew figured out a way to add a text area into the GUI (for updating purpose)
+
+November 23, 2014:
+- Son and Bobby tries to implement the console version of the game
+- Buttons in GUI are added.
+
+
+November 24, 2014:
+- Bobby and Son completed final tests for our console poker game, it runs smoothly.
+- Still need to implement big blind, small blind, and the pot splitting system.
+
+== Thanksgiving Break Tasks ==
+- Andrew: Finish the GUI (Also, think about what needs to be connected to the model)
+- Bobby and Son: Get the Pot system worked out, including bigBlind and smallBlind. (Think about what information needs to be connected to the view)
+- Sune: Do research on the network packages and get a working test connection completed (You’ll be here for break, so you could try and connect a couple of lab computers [also, think about what needs to be connected via network inside of the controller])
+- Everyone (Mainly Andrew, Bobby, and Son): Do some exploratory research into network connections (so we can all have a basic understanding of the process before we attempt to connect it via the controller)
+
+December 1, 2014:
+- Caple finished designing the GUI. It's beautiful.
+- Son needs to add the Queens of Spade since the card is missing from the deck.
+- Bobby desined the King of Spades, which is the logo of the game.
+
+December 2, 2014:
+- Sune and Caple successfully figured out a way to make two computer connected.
+- Sune starts on doing documentations.
+
+December 3, 2014:
+- Son refactored the GUI code for better positioning and used better color for the background. Certain elements were minimally adjusted for more satisfying visuals.
+
+December 4, 2014:
+- Son finished designing the Queen of Spades to the deck
+
+December 5, 2014:
+- UML Diagram for the whole package completed. The Diagram reaches complexity limits in 
+
+December 6, 2014:
+- Threading doesn't work, switch to using multiple ServerSockets.
+
+December 7, 2014:
+- Multiple ServerSokets successfully work. Thank God.
+- Planning several adjustments to make the game look better and interact more friendly
+- The team meets up for the dry runs.
+
+December 8, 2014:
+- Project complete.
+- Finishing documentation.
+
