@@ -1,9 +1,9 @@
-#How to run the game
+How to run the game
 Our Poker Game can be run from our program's main (PokerMain.java) stored in the root source folder of our file system. 
 
 Team BASS Project File System:
 
-<code>BASS_FinalProject
+BASS_FinalProject
 	- bin
 	- src
 		-PokerMain.java <------ Main Poker Program
@@ -49,4 +49,3 @@ Team BASS Project File System:
 		-view
 			-MainView.java
 			-Raiseview.java
-</code>
