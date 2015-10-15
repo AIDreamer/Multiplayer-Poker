@@ -3,7 +3,7 @@ Our Poker Game can be run from our program's main (PokerMain.java) stored in the
 
 Team BASS Project File System:
 
-BASS_FinalProject
+<code>BASS_FinalProject
 	- bin
 	- src
 		-PokerMain.java <------ Main Poker Program
@@ -49,4 +49,4 @@ BASS_FinalProject
 		-view
 			-MainView.java
 			-Raiseview.java
-
+</code>
